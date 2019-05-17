@@ -60,14 +60,8 @@ namespace TouhouMod.NPCs.Bosses.EoSD.Rumia
 			npc.DeathSound = SoundID.NPCDeath1;
             npc.netUpdate = true;
 			music = MusicID.Boss2;
-			if (Main.expertMode)
-			{
-                music = mod.GetSoundSlot(SoundType.Music, "Sounds/Music/RumiaEx");
-			}
-		    else
-			{
-				music = mod.GetSoundSlot(SoundType.Music, "Sounds/Music/Rumia");
-			}
+			music = mod.GetSoundSlot(SoundType.Music, "Sounds/Music/Rumia");
+			
 			npc.scale = 0.9f;
 		}
 		public override void ScaleExpertStats(int numPlayers, float bossLifeScale)

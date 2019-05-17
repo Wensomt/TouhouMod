@@ -60,15 +60,8 @@ namespace TouhouMod.NPCs.Bosses.SA.Parsee
 			npc.DeathSound = SoundID.NPCDeath1;
             npc.netUpdate = true;
 			npc.scale = 0.95f;
-			if (Main.expertMode)
-					{
-                    music = mod.GetSoundSlot(SoundType.Music, "Sounds/Music/ParseeEx");
-					}
-					else
-					{
-					music = mod.GetSoundSlot(SoundType.Music, "Sounds/Music/Parsee");
-					}
-			//music = MusicID.Boss2;
+			music = mod.GetSoundSlot(SoundType.Music, "Sounds/Music/Parsee");
+			
 
 		}
 		public override void ScaleExpertStats(int numPlayers, float bossLifeScale)

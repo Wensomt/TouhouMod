@@ -62,14 +62,8 @@ namespace TouhouMod.NPCs.Bosses.PCB.Alice
 			npc.DeathSound = SoundID.NPCDeath1;
             npc.netUpdate = true;
             npc.scale = 0.75f;
-			if (Main.expertMode)
-					{
-                    music = mod.GetSoundSlot(SoundType.Music, "Sounds/Music/AliceEx");
-					}
-					else
-					{
-					music = mod.GetSoundSlot(SoundType.Music, "Sounds/Music/Alice");
-					}
+			music = mod.GetSoundSlot(SoundType.Music, "Sounds/Music/Alice");
+			
 			//music = MusicID.Boss2;
 		}
         public override void ScaleExpertStats(int numPlayers, float bossLifeScale)

@@ -43,23 +43,13 @@ namespace TouhouMod
 			
 			if (!Main.dedServ)
 			{
-                if (Main.expertMode)
-                {
-                    AddMusicBox(GetSoundSlot(SoundType.Music, "Sounds/Music/RumiaEx"), ItemType("RumiaTrophy"), TileType("RumiaTrophy"));
-                    AddMusicBox(GetSoundSlot(SoundType.Music, "Sounds/Music/ParseeEx"), ItemType("ParseeTrophy"), TileType("ParseeTrophy"));
-                    AddMusicBox(GetSoundSlot(SoundType.Music, "Sounds/Music/MarisaEx"), ItemType("MarisaTrophy"), TileType("MarisaTrophy"));
-                    AddMusicBox(GetSoundSlot(SoundType.Music, "Sounds/Music/AliceEx"), ItemType("AliceTrophy"), TileType("AliceTrophy")); 
-                    //AddMusicBox(GetSoundSlot(SoundType.Music, "Sounds/Music/SakuyaEx"), ItemType("SakuyaTrophy"), TileType("SakuyaTrophy")); 
-                }
-                else
-                {
+                
                     AddMusicBox(GetSoundSlot(SoundType.Music, "Sounds/Music/Rumia"), ItemType("RumiaTrophy"), TileType("RumiaTrophy"));
                     AddMusicBox(GetSoundSlot(SoundType.Music, "Sounds/Music/Parsee"), ItemType("ParseeTrophy"), TileType("ParseeTrophy"));
                     AddMusicBox(GetSoundSlot(SoundType.Music, "Sounds/Music/Marisa"), ItemType("MarisaTrophy"), TileType("MarisaTrophy"));
                     AddMusicBox(GetSoundSlot(SoundType.Music, "Sounds/Music/Alice"), ItemType("AliceTrophy"), TileType("AliceTrophy")); 
                     //AddMusicBox(GetSoundSlot(SoundType.Music, "Sounds/Music/Sakuya"), ItemType("SakuyaTrophy"), TileType("SakuyaTrophy")); 
-                }
-	
+                
 			}
 			
 			

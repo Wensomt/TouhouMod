@@ -62,14 +62,8 @@ namespace TouhouMod.NPCs.Bosses.IN.Marisa
 			npc.DeathSound = SoundID.NPCDeath1;
 			npc.scale = 0.75f;
             npc.netUpdate = true;
-			if (Main.expertMode)
-					{
-                    music = mod.GetSoundSlot(SoundType.Music, "Sounds/Music/MarisaEx");
-					}
-					else
-					{
-					music = mod.GetSoundSlot(SoundType.Music, "Sounds/Music/Marisa");
-					}
+			music = mod.GetSoundSlot(SoundType.Music, "Sounds/Music/Marisa");
+				
 			//music = MusicID.Boss2;
 		}
         public override void ScaleExpertStats(int numPlayers, float bossLifeScale)
