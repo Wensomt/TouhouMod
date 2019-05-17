@@ -4,7 +4,7 @@ If you want see progress this mod join to discord server!
 https://discord.gg/3SKCMje
 
 v1.2.3.9 Update Info
--now bosses have music during fight (on expert remix theme)
+-now bosses have music during fight
 -now in mod browser
 -work on multiplayer 
 -Parsee's spell card - "Green Eyed Monster" is more difficult 
